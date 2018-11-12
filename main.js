@@ -21,7 +21,7 @@ function readTextFile(file)
     }
     rawFile.send(null);
 }
-readTextFile("https://nitesh237.github.io/top_five_till_14L.txt")
+readTextFile("https://raw.githubusercontent.com/nitesh237/nitesh237.github.io/master/top_five_till_14L.txt")
 
 var allText1
 var names_to_id = [];
@@ -241,5 +241,5 @@ function getRecom() {
   });
 }
 
-autocomplete(document.getElementById("myInput"), names, "https://nitesh237.github.io/filtered_id_title.txt", readTextFile1);
+autocomplete(document.getElementById("myInput"), names, "https://raw.githubusercontent.com/nitesh237/nitesh237.github.io/master/filtered_id_title.txt", readTextFile1);
 
